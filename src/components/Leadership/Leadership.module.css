@@ -1,0 +1,28 @@
+.leadershipWrapper {
+  width: 100vw;
+  height: 685px;
+  padding: 1rem 0;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+.leadershipHeader {
+  font-size: 3.48832rem;
+  padding-bottom: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.leadershipContent {
+  display: flex;
+  margin: 3rem;
+  width: 100%;
+  gap: 4rem;
+}
+.leadershipInfo {
+  font-size: 1.25rem;
+  font-weight: 300;
+  max-width: 44vw;
+}

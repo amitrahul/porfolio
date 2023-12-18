@@ -1,0 +1,27 @@
+.skillWrapper {
+  width: 90vw;
+  height: 547px;
+  padding: 1rem 0;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillHeader {
+  font-size: 3.48832rem;
+  padding-bottom: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+.skillBarWrapper {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

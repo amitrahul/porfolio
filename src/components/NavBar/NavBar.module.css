@@ -1,0 +1,79 @@
+.navSection {
+  width: 100vw;
+  height: 46px;
+  padding: 8px 16px;
+  /* margin-bottom: 10px; */
+  background: linear-gradient(
+      136deg,
+      rgb(68, 132, 206),
+      rgb(26, 215, 192),
+      rgb(255, 155, 17),
+      rgb(155, 89, 182),
+      rgb(255, 127, 127),
+      rgb(236, 240, 241)
+    )
+    0% 0% / 1200% 1200%;
+  animation: BackgroundAnimation 70s ease infinite;
+}
+
+.navWrapper ul {
+  display: flex;
+  gap: 15px;
+}
+.navWrapper ul li {
+  padding: 0.5rem;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.navWrapper a {
+  text-decoration: none;
+  color: black;
+}
+@-webkit-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+
+@-moz-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+
+@-o-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
+
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
+  }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
